@@ -1,3 +1,17 @@
 h1{
     color: aqua;
 }
+body{
+    background-color: black;
+}
+p{
+    color: blanchedalmond;
+}
+.web-navBar{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    gap: 10px;
+}
