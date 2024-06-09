@@ -1,17 +1,19 @@
 h1{
-    color: aqua;
+    color: rgb(255, 238, 0);
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 img{
     display: flex;
     justify-content: center;
-    width:  290px;
-    height: 250px;
+    width: 120%;
 }
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 p{
-    color: blanchedalmond;
+    color: rgb(255, 255, 255);
 }
 .web-navBar{
 
@@ -19,6 +21,16 @@ p{
 a{
     text-decoration: none;
     gap: 10px;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(0, 0, 0);
+
+}
+p{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .web-conten-information{
     display: inline-grid;
@@ -31,46 +43,62 @@ a{
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     justify-content: center;
 }
 /*incompleto*/
 
 .web-conten-information-grid-componet2{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
-/*completo*/
-
-.web-conten-information-grid-componet3{
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 1;
-    grid-column-end: 2;
-}
-/*incompleto*/
-
-.web-conten-information-grid-componet4{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
     grid-column-end: 3;
 }
-/*incompleto*/
+.web-conten-information-grid-componet3{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-content: center;
+}
+.web-conten-information-grid-componet4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
 
 .web-conten-information-grid-componet5{
-    grid-row-start: 3;
-    grid-row-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
     grid-column-start: 1;
-    grid-column-end: 2;
-}
-/*completo*/
-
-.web-conten-information-grid-componet6{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 2;
     grid-column-end: 3;
+    justify-content: center;
+}
+.web-conten-information-grid-componet6{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.web-conten-information-infoGeometry-part1{
+    size: 10px;
+    color: white;
+}
+
+
+.h3-title{
+    color: rgb(255, 251, 0);
+    background-color: rgba(192, 0, 0, 0);
+}
+.web-navBar-componet{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    color:rgb(0, 0, 0);
+    background-color: aliceblue;
+}
+.web-title{
+    display: flex;
+    justify-content: center;
 }
